@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 export default function Intro(props){
     const [ counter, setCounter ] = useState(0);
     const [ semaforo, setSemaforo ] = useState(false);
-    /*const { message } = props;*/
+    const { message, name } = props;
 
         useEffect(() => {
             console.log(semaforo);
