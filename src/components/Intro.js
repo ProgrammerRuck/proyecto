@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 export default function Intro(props){
     const [ counter, setCounter ] = useState(0);
     const [ semaforo, setSemaforo ] = useState(false);
-    const { message } = props;
+    /*const { message } = props;*/
 
         useEffect(() => {
             console.log(semaforo);
@@ -15,7 +15,8 @@ export default function Intro(props){
     }
     
     return(
-    <div>
+        <div></div>
+    /*<div>
         <p>Hey</p>
         <p>{ message }</p>
         <h4>El numero de clicks es: {counter} </h4>
@@ -24,6 +25,6 @@ export default function Intro(props){
          <button type="submit" onClick={contar}>
             Sumar ++
          </button>
-    </div>
+    </div>*/
     );
 }
